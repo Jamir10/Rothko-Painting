@@ -1,0 +1,16 @@
+
+
+/*Margin> Padding> Border*/
+
+.canvas{
+    width: 500px;
+    height: 600px;
+    background-color: #4d0f00;
+  }
+
+.frame{
+    border: 50px solid black;
+    width: 500px;
+    padding: 50px; /* Adjust the frame from the border going INSIDE */
+    margin: 20px auto; /* Adjust the frame from the border going OUTSIDE */
+}
